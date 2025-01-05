@@ -55,7 +55,7 @@ SessionManagementScreen {
             textColor: "white"
             placeholderTextColor: "white"
             background: Rectangle {
-                radius: 0
+                radius: 5
                 color: "#28282b"
             }
         }
@@ -80,7 +80,7 @@ SessionManagementScreen {
             placeholderTextColor: passwordFieldOutlined ? "white" : "white"
             passwordCharacter: config.PasswordFieldCharacter == "" ? "●" : config.PasswordFieldCharacter
             background: Rectangle {
-                radius: 0
+                radius: 5
                 border.color: "#6495ed"
                 border.width: 1
                 color: "#6495ed"
@@ -122,7 +122,7 @@ SessionManagementScreen {
 
     Image {
         id: loginButton
-        source: "assets/snigdhaos-login.svgz"
+        source: "assets/login.svg"
         smooth: true
         sourceSize: Qt.size(passwordBox.height, passwordBox.height)
         anchors {
