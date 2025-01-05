@@ -1,0 +1,17 @@
+[SddmGreeterTheme]
+Name=SNIGDHAOS
+Description=Snigdha OS SDDM Theme
+Author=Snigdha OS & Team
+Copyright=(c) 2025, Snigdha OS
+License=MIT
+Type=sddm-theme
+Version=1.0
+Website=https://github.com/Snigdha-OS/snigdhaos-sddm-config
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=hello@snigdhaos.org
+Theme-Id=Snigdhaos
+Theme-API=2.0
+QtVersion=6
